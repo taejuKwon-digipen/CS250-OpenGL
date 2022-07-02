@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Mesh">
+      <UniqueIdentifier>{9f9cd125-3546-442e-8ece-62ff1b54766b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mesh">
+      <UniqueIdentifier>{5ced2041-5e06-4dde-b3a2-881825421a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Geometry&amp;Tessellation">
+      <UniqueIdentifier>{5cbba588-fc34-4f78-bee0-c30da5f17491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Geometry&amp;Tessellation">
+      <UniqueIdentifier>{4c780bc9-3da9-4bed-8a81-71fda0807c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Geometry&amp;Tessellation">
+      <UniqueIdentifier>{d22c0c23-2530-4767-bc59-4acb5b4d8de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Toon&amp;Fog">
+      <UniqueIdentifier>{1005a78d-4d56-4394-853c-7b9495311a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Noise">
+      <UniqueIdentifier>{7d1cca3a-5c68-4f1a-a96f-130c75298626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Noise">
+      <UniqueIdentifier>{39b073ba-f329-41f1-8792-454426c7fd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\ShadowMapping">
+      <UniqueIdentifier>{c0461c11-f577-47bf-98fd-b15a0a89912f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLShader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapping.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshTess.h">
+      <Filter>헤더 파일\Geometry&amp;Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tessellation.h">
+      <Filter>헤더 파일\Geometry&amp;Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>헤더 파일\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>헤더 파일\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueNoise.h">
+      <Filter>헤더 파일\Noise</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="glad.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapping.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellation.cpp">
+      <Filter>소스 파일\Geometry&amp;Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTess.cpp">
+      <Filter>소스 파일\Geometry&amp;Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>소스 파일\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueNoise.cpp">
+      <Filter>소스 파일\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>소스 파일\Noise</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\mesh.frag">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="shaders\mesh.vert">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="shaders\hermiteCurve.frag">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="shaders\hermiteCurve.vert">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="shaders\tess.geom">
+      <Filter>리소스 파일\Geometry&amp;Tessellation</Filter>
+    </None>
+    <None Include="shaders\tess.frag">
+      <Filter>리소스 파일\Geometry&amp;Tessellation</Filter>
+    </None>
+    <None Include="shaders\tess.tesc">
+      <Filter>리소스 파일\Geometry&amp;Tessellation</Filter>
+    </None>
+    <None Include="shaders\tess.tese">
+      <Filter>리소스 파일\Geometry&amp;Tessellation</Filter>
+    </None>
+    <None Include="shaders\tess.vert">
+      <Filter>리소스 파일\Geometry&amp;Tessellation</Filter>
+    </None>
+    <None Include="shaders\toon.frag">
+      <Filter>리소스 파일\Toon&amp;Fog</Filter>
+    </None>
+    <None Include="shaders\toon.vert">
+      <Filter>리소스 파일\Toon&amp;Fog</Filter>
+    </None>
+    <None Include="shaders\light.vert">
+      <Filter>리소스 파일\Toon&amp;Fog</Filter>
+    </None>
+    <None Include="shaders\light.frag">
+      <Filter>리소스 파일\Toon&amp;Fog</Filter>
+    </None>
+    <None Include="shaders\shadowMapping.vert">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+    <None Include="shaders\shadowMapping.frag">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+    <None Include="shaders\shadowMappingDepth.vert">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+    <None Include="shaders\shadowMappingDepth.frag">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+    <None Include="shaders\debugQuad.vert">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+    <None Include="shaders\debugQuad.frag">
+      <Filter>리소스 파일\ShadowMapping</Filter>
+    </None>
+  </ItemGroup>
+</Project>
